@@ -59,7 +59,7 @@
         android:layout_width="250dp"
         android:layout_height="100dp"
         android:layout_marginStart="51dp"
-        android:text="Penyakit mental yang di tandai dengan perasaan sedih yang intens . Anda mungkin juga merasa tak berdaya,putus asa, dan tidak berharga"
+        android:text="Tidak adanya rasa yakin dan percaya pada kemampuan diri sendiri, takut akan kegagalan dan sulit mencoba sesuatu yang baru. Biasa nya ini hanyalah sugesti buruk atau trauma masa lalu"
         android:textSize="10sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
