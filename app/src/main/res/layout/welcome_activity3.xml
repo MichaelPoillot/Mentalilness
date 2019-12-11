@@ -21,9 +21,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="51dp"
         android:textColor="@android:color/black"
-        android:text="TIDAK PERCAYA DIRI ?"
+        android:text="KE PSIKOLOG BUKAN BERARTI GILA"
         android:textStyle="bold"
-        android:textSize="25sp"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginStart="51dp"
-        android:text="APAKAH KAMU SEDANG"
+        android:text="JANGAN SALAH PAHAM"
         android:textSize="11sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
@@ -43,22 +43,9 @@
         android:layout_width="250dp"
         android:layout_height="100dp"
         android:layout_marginStart="51dp"
-        android:text="Tidak adanya rasa yakin dan percaya pada kemampuan diri sendiri, takut akan kegagalan dan sulit mencoba sesuatu yang baru. Biasa nya ini hanyalah sugesti buruk atau trauma masa lalu"
+        android:text="Tidak ada yang salah dengan mengalami penyakit mental. Sama seperti penyakit lainnya, dokter dan obat menjadi jalan keluarnya. Maka penyakit mental pun begitu."
         android:textSize="10sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="52dp"
-        android:layout_marginBottom="36dp"
-        android:text="GET STARTED"
-        android:textColor="@android:color/white"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
