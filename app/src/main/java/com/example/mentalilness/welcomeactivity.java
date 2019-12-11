@@ -92,7 +92,7 @@ public class welcomeactivity extends AppCompatActivity {
     }
 
     private void launchHomeScreen() {
-        startActivity(new Intent(welcomeactivity.this, MainActivity.class));
+        startActivity(new Intent(welcomeactivity.this, pagelogin.class));
         finish();
     }
 

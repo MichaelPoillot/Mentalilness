@@ -60,11 +60,22 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
+        android:layout_width="115dp"
+        android:layout_height="39dp"
         android:layout_marginStart="72dp"
         android:layout_marginTop="16dp"
         android:text="Login"
+        android:textSize="12dp"
+        android:onClick="loginlistener"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:layout_width="115dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="16dp"
+        android:text="Register"
         android:textSize="12dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
