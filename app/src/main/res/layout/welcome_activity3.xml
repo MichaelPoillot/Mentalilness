@@ -7,23 +7,23 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="172dp"
-        android:layout_height="162dp"
+        android:layout_width="251dp"
+        android:layout_height="161dp"
         android:layout_marginTop="150dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/mentalbiru" />
+        app:srcCompat="@drawable/abuabu" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="51dp"
-        android:text="DEPRESI"
         android:textColor="@android:color/black"
+        android:text="TIDAK PERCAYA DIRI ?"
         android:textStyle="bold"
-        android:textSize="30sp"
+        android:textSize="25sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginStart="51dp"
-        android:text="PENTINGNYA MENGETAHUI"
+        android:text="APAKAH KAMU SEDANG"
         android:textSize="11sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
@@ -43,9 +43,22 @@
         android:layout_width="250dp"
         android:layout_height="100dp"
         android:layout_marginStart="51dp"
-        android:text="Penyakit mental yang di tandai dengan perasaan sedih yang intens . Anda mungkin juga merasa tak berdaya,putus asa, dan tidak berharga"
+        android:text="Tidak adanya rasa yakin dan percaya pada kemampuan diri sendiri, takut akan kegagalan dan sulit mencoba sesuatu yang baru. Biasa nya ini hanyalah sugesti buruk atau trauma masa lalu"
         android:textSize="10sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="36dp"
+        android:text="GET STARTED"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,30 +6,13 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="179dp"
-        android:layout_height="654dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/orange" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="241dp"
-        android:layout_height="126dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/orangeshape" />
-
-    <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="268dp"
-        android:layout_height="202dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginStart="55dp"
+        android:layout_width="172dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/mentalorange" />
 
     <TextView
@@ -37,6 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="51dp"
+        android:textColor="@android:color/black"
         android:text="TIDAK PERCAYA DIRI ?"
         android:textStyle="bold"
         android:textSize="25sp"

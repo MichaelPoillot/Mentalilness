@@ -35,7 +35,8 @@ public class welcomeactivity extends AppCompatActivity {
         //variabel untuk menampung layout yang akan di viewpager kan
         layouts = new int[]{
                 R.layout.welcome_activity1,
-                R.layout.welcome_activity2};
+                R.layout.welcome_activity2,
+                R.layout.welcome_activity3};
 
         addBottomDots(0);
 
