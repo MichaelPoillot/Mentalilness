@@ -35,7 +35,7 @@
                     android:id="@+id/textView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="15sp"
+                    android:textSize="12sp"
                     android:text="Pengetahuan baru yang tidak anda ketahui dengan kursus dan latihan untuk lebih memahami psikologi di balik suasana hati anda"
                     android:layout_weight="1"/>
 
@@ -49,45 +49,55 @@
                     android:onClick="depresiclick"
                     app:srcCompat="@drawable/depresi" />
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/imageView4"
                     android:layout_width="wrap_content"
                     android:layout_height="150dp"
                     android:layout_weight="1"
                     android:layout_marginTop="20dp"
+                    android:background="@android:color/transparent"
                     android:scaleType="fitXY"
+                    android:onClick="kepercayaandiriclick"
                     app:srcCompat="@drawable/kepercayaandiri" />
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/imageView7"
                     android:layout_width="wrap_content"
                     android:layout_height="150dp"
                     android:layout_marginTop="20dp"
                     android:scaleType="fitXY"
+                    android:background="@android:color/transparent"
+                    android:onClick="emosiclick"
                     android:layout_weight='1'
                     app:srcCompat="@drawable/emosi" />
-                <ImageView
+                <ImageButton
                     android:id="@+id/imageView8"
                     android:layout_width="wrap_content"
                     android:layout_height="150dp"
                     android:layout_marginTop="20dp"
                     android:scaleType="fitXY"
+                    android:onClick="eatingdisorderclick"
+                    android:background="@android:color/transparent"
                     android:layout_weight='1'
                     app:srcCompat="@drawable/eatingdisorder" />
-                <ImageView
+                <ImageButton
                     android:id="@+id/imageView9"
                     android:layout_width="wrap_content"
                     android:layout_height="150dp"
                     android:layout_marginTop="20dp"
                     android:scaleType="fitXY"
+                    android:background="@android:color/transparent"
+                    android:onClick="cyberbulyclick"
                     android:layout_weight='1'
                     app:srcCompat="@drawable/cyberbullying" />
-                <ImageView
+                <ImageButton
                     android:id="@+id/imageView10"
                     android:layout_width="wrap_content"
                     android:layout_height="150dp"
                     android:layout_marginTop="20dp"
+                    android:background="@android:color/transparent"
                     android:scaleType="fitXY"
+                    android:onClick="alteregoclick"
                     android:layout_weight='1'
                     app:srcCompat="@drawable/alterego" />
             </LinearLayout>

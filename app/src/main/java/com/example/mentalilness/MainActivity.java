@@ -18,4 +18,19 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,desc_depresi.class);
         startActivity(intent);
     }
+
+    public void kepercayaandiriclick(View view) {
+    }
+
+    public void emosiclick(View view) {
+    }
+
+    public void eatingdisorderclick(View view) {
+    }
+
+    public void cyberbulyclick(View view) {
+    }
+
+    public void alteregoclick(View view) {
+    }
 }
