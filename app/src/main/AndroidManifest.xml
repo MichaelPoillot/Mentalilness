@@ -9,7 +9,8 @@
         android:roundIcon="@drawable/intro"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".welcomeactivity"></activity>
+        <activity android:name=".desc_depresi"></activity>
+        <activity android:name=".welcomeactivity" />
         <activity android:name=".pagelogin" />
         <activity android:name=".splashscreen">
             <intent-filter>
