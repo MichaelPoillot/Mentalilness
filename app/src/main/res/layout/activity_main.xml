@@ -13,15 +13,31 @@
 
         <RelativeLayout
             android:layout_width="wrap_content"
-
             android:layout_height="wrap_content">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
+                android:layout_margin="25dp"
                 android:orientation="vertical"
                 android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:text="TEMUKAN"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:text="Pengetahuan baru yang tidak anda ketahui dengan kursus dan latihan untuk lebih memahami psikologi di balik suasana hati anda"
+                    android:layout_weight="1"/>
 
                 <ImageButton
                     android:id="@+id/imageView3"
