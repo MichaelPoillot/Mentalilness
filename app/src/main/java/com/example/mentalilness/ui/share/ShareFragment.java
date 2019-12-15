@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
-import com.example.navbar.R;
+import com.example.mentalilness.R;
 
 public class ShareFragment extends Fragment {
 
