@@ -16,10 +16,11 @@
             android:padding="20dp">
             <TextView
                 android:id="@+id/textView3"
+                android:padding="12dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="70dp"
-                android:text="asdasdasdasdasdasdasdkbdbasnd,,nasdn,asn,db,bsadns,ndbsab,dasdashldlsadljhalshjdhjlasdhjlsahljdhlashldjalhsdhou" />
+                android:textSize="14sp"
+                android:text="@string/depresi" />
         </RelativeLayout>
     </ScrollView>
 
