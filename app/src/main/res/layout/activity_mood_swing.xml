@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mood_swing">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="APA ITU MOOD SWING ?"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Mood swing merupakan perubahan suasana hati atau emosi. Perubahan emosi ini merupakan kondisi psikologis sebagai respon tubuh terhadap lingkungan atau situasi tertentu. Mood swings dapat menjadi masalah kesehatan, apabila perubahan suasana hati sering terjadi, tidak bisa dikendalikan, sangat tidak rasional (misalnya menimbulkan keinginan untuk menyakiti diri) dan mengganggu fungsi sehari-hari kamu. Misalnya, mood swing berlangsung selama beberapa hari atau lebih sehingga membuat kamu merasa sangat senang atau sedih secara tidak terkontrol, tidak bisa tidur, atau menghambat kegiatan di keseharian."
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Oleh karena itu, sangat penting untuk memperhatikan apa yang terjadi ketika kamu mengalami mood swing. Apabila gejala-gejala yang telah disebutkan sebelumnya termasuk mtimbul keinginan untuk menyakiti diri sendiri maka segeralah mencari bantuan (seperti menemui psikolog dan psikiater). Mood swing dapat menjadi pertanda dari berbagai macam gangguan mental, tetapi kamu tidak perlu merasa risau karena semuanya dapat ditangani. Selain itu, perlu diketahui bahwa seseorang dinyatakan memiliki gangguan jika telah didiagnosis oleh psikolog atau psikiater bukan hanya karena kamu mengalami beberapa gejala dan mendiagnosis diri sendiri."
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Untuk mengatasi ketidaknyamanan yang dirasakan, kamu dapat mencoba metode self healing. Self healing adalah sebuah proses untuk menyembuhkan diri dari luka batin. Metode ini dilakukan ketika seseorang mengalami luka batin yang mengganggu emosinya. Lebih lanjut, kamu dapat mempelajarinya pada tautan berikut ini"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="8 METODE SELF HEALING"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView8" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="ME TIME"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Masalah yang belum selesai pada sebagian orang umumnya berkaitan dengan kehadiran orang lain. Me time ini berguna untuk membuat setiap orang memikirkan dirinya sendiri terlebih dahulu. Bagaimanapun orang lain memperlakukannya, diri kita masih bisa memilih untuk bahagia.
+Saat seseorang terlalu sibuk memikirkan orang lain, terkadang ia lupa memikirkan diri sendiri. Meluangkan waktu untuk diri sendiri benar-benar akan membuat kita merasa lebih bermakna.
+Membuat kita merasa bahwa pusat dari segala kehidupan ini adalah diri sendiri. Orang lain hanyalah pelengkap kebahagiaan.
+"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView10" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Berdialog dengan Diri Sendiri"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Bicaralah pada diri sendiri tentang apa yang sebenarnya diinginkan. Jujur pada diri sendiri lebih baik ketimbang melampiaskan segala perasaan buruk kita pada sesuatu. Satu-satunya orang yang mampu berbicara dengan lubuk hati terdalam adalah diri sendiri. Saatnya mulai memahami diri sendiri untuk bisa bersyukur atas apa yang hidup ini berikan."
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView12" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Berdamai dengan Keadaan"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Mengingat kembali peristiwa-peristiwa buruk yang masih membekas di hati memang tak terhindarkan. Setiap orang berhak marah atas hal itu. Orang yang hatinya terluka sangat dalam tidak akan dengan mudah melupakannya. Namun, apakah dengan menyalahkan keadaan atas atas semua peristiwa buruk itu bisa dibenarkan? Apakah dengan mengutuk keadaan bisa membuat batin kita tenang? Tidak. Alangkah lebih bijaknya kita jika mencoba berdamai dengan keadaan. Menerima setiap keadaan yang menimpa kita ini sebagai guru kehidupan yang menempa pribadi kita lebih baik lagi"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView14" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="231dp"
+                android:layout_height="44dp"
+                android:background="@drawable/closebutton"
+                android:onClick="closedepresion"
+                android:text="close"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView15" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

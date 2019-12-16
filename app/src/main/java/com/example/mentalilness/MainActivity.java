@@ -70,9 +70,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void kepercayaandiriclick(View view) {
+        Intent intent = new Intent(this,desc_kepercayaandiri.class);
+        startActivity(intent);
     }
 
     public void emosiclick(View view) {
+        Intent intent = new Intent(this,mood_swing.class);
+        startActivity(intent);
     }
 
     public void eatingdisorderclick(View view) {

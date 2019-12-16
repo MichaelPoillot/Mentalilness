@@ -9,7 +9,8 @@
         android:roundIcon="@drawable/intro"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".desc_kepercayaandiri"></activity>
+        <activity android:name=".mood_swing"></activity>
+        <activity android:name=".desc_kepercayaandiri" />
         <activity android:name=".desc_depresi" />
         <activity android:name=".welcomeactivity" />
         <activity android:name=".pagelogin" />
