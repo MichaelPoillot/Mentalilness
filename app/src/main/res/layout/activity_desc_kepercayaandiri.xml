@@ -44,8 +44,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="14dp"
-                android:text="SEBERAPA UMUMKAH DESPRESI ?"
+                android:text="Lalu apa yang dapat kamu lakukan untuk dapat meningkatkan rasa percaya diri? ?"
                 android:textColor="@android:color/black"
+                android:textAllCaps="true"
                 android:textSize="14sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -56,7 +57,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="14dp"
-                android:text="Depresi adalah kondisi yang sering terjadi di masyarakat. Menurut penelitian, depresi terjadi pada 80% orang pada beberapa waktu dalam hidupnya dan dapat terjadi pada usia berapapun. Depresi lebih sering terjadi pada wanita dibandingkan laki-laki."
+                android:text="1 Ambillah waktu sejenak untuk mengenal diri kamu sendiri. Kenalilah hal apa yang menjadi kekuatan atau potensi diri kamu. \n
+\n 2 Kenali juga: Dengan apa yang kamu alami saat ini, kondisi ini memberikan kamu kesempatan untuk mengembangkan kekuatan atau potensi diri yang mana? \n
+\n 3 Berlatihlah mengembangkan kekuatan atau potensi diri kamu tersebut. \n
+\n 4 Lakukanlah hobi atau hal-hal yang menyenangkan. \n
+\n 5 Ubahlah persepsi kamu mengenai kegagalan atau kesalahan. Ketika kamu melakukan sesuatu, tidak ada yang namanya kegagalan atau kesalahan, yang ada hanyalah data untuk memperkaya pengalaman kamu dalam mengenali dirimu sendiri.\n
+\n 6 Beraktivitaslah dengan sadar penuh. Kita tidak akan dapat mengubah diri apabila kita tidak menyadari apa yang sedang kita lakukan saat ini. \n
+\n 7 Bersyukurlah atas hal-hal sederhana yang telah kamu alami atau kamu miliki saat ini dan lakukan setiap hari.
+"
                 android:textSize="12sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
