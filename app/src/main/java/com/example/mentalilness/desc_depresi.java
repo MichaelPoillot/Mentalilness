@@ -12,6 +12,6 @@ public class desc_depresi extends AppCompatActivity {
         setContentView(R.layout.activity_desc_depresi);
 
 
-//        aaasssssss
+//        coba michaelsdasd
     }
 }
