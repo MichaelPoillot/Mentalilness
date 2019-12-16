@@ -25,6 +25,7 @@
                 android:orientation="vertical"
                 android:weightSum="3">
 
+
                 <TextView
                     android:id="@+id/textView3"
                     android:layout_width="wrap_content"
@@ -107,6 +108,7 @@
                     android:onClick="alteregoclick"
                     android:scaleType="fitXY"
                     app:srcCompat="@drawable/alterego" />
+
             </LinearLayout>
         </RelativeLayout>
     </ScrollView>

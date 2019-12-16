@@ -8,20 +8,89 @@
     tools:context=".desc_depresi">
 
     <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:padding="20dp">
             <TextView
                 android:id="@+id/textView3"
-                android:padding="12dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:textColor="@android:color/black"
+                android:text="APA ITU DESPRESI ?"
                 android:textSize="14sp"
-                android:text="@string/depresi" />
-        </RelativeLayout>
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Depresi adalah kondisi yang digambarkan sebagai suatu kelainan mood yang menyebabkan perasaan sedih dan hilang minat yang menetap.
+Depresi bisa memengaruhi perasaan Anda, cara berpikir dan berperilaku, serta dapat membuat Anda memiliki berbagai masalah emosi dan fisik. Jika rasa sedih berlangsung dalam beberapa hari atau minggu, mengganggu pekerjaan atau kegiatan lain dengan keluarga atau teman, atau berpikir untuk bunuh diri, kemungkinan ini adalah depresi. Diskusikan dengan dokter jika Anda merasakan gejala depresi.
+"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:textColor="@android:color/black"
+                android:text="SEBERAPA UMUMKAH DESPRESI ?"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView4" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Depresi adalah kondisi yang sering terjadi di masyarakat. Menurut penelitian, depresi terjadi pada 80% orang pada beberapa waktu dalam hidupnya dan dapat terjadi pada usia berapapun. Depresi lebih sering terjadi pada wanita dibandingkan laki-laki."
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:text="TANDA TANDA APA SAJAKAH TERJANGKITNYA DEPRESI ?"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView6" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Depresi adalah kondisi yang dapat menimbulkan bermacam macam gejala pada setiap orang.Contohnya, saat menderita depresi beberapa orang akan tidur lebih banyak, sementara gejala lainnya bisa menimbulkan gejala sulit tidur dan tidak nafsu makan. Meski begitu, terdapat beberapa gejala yang umum terjadi, seperti:
+\n•  Sulit konsentrasi
+\n•  Merasa sedih atau kosong
+\n•  Kehilangan minat akan hal-hal yang menggembirakan
+\n•  Merasa masa depannya tidak akan baik atau putus asa
+\n•  Merasa tidak berenergi
+\n•  Merasa gelisah atau sulit tidur
+\n•  Hilang minat pada seks
+\n•  Depresi berat dapat menyebabkan pikiran bunuh diri dan pembunuhan.\n
+Pada orang dengan depresi, gejala ini berlangsung lama hingga 2 minggu atau lebih. Kemungkinan ada tanda-tanda dan gejala yang tidak disebutkan di atas. Bila Anda memiliki kekhawatiran akan sebuah gejala tertentu, konsultasikanlah dengan dokter.
+"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 
 
