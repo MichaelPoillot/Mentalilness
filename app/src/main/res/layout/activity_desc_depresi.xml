@@ -184,13 +184,13 @@ Selain itu,\n pertimbangkan pilihan berikut saat Anda berpikir akan bunuh diri:
 
             <Button
                 android:id="@+id/button3"
-                android:layout_width="169dp"
-                android:layout_height="26dp"
+                android:layout_width="231dp"
+                android:layout_height="44dp"
                 android:background="@drawable/closebutton"
                 android:onClick="closedepresion"
                 android:text="close"
                 android:textColor="#FFFFFF"
-                android:textSize="13sp"
+                android:textSize="17sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/textView13" />
