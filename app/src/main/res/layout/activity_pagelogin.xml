@@ -59,6 +59,7 @@
         android:textSize="12dp"
         android:onClick="loginlistener"
         app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/loginbutton"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <Button
@@ -68,6 +69,7 @@
         android:layout_marginStart="25dp"
         android:text="Register"
         android:textSize="12dp"
+        android:background="@drawable/loginbutton"
         app:layout_constraintStart_toEndOf="@+id/loginbutton"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 

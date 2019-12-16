@@ -5,7 +5,7 @@
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".desc_depresi">
+    tools:context=".desc_kepercayaandiri">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -21,7 +21,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="14dp"
-                android:text="APA ITU DESPRESI ?"
+                android:text="KEPERCAYAANG DIRI ?"
                 android:textColor="@android:color/black"
                 android:textSize="14sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -33,9 +33,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="14dp"
-                android:text="Depresi adalah kondisi yang digambarkan sebagai suatu kelainan mood yang menyebabkan perasaan sedih dan hilang minat yang menetap.
-Depresi bisa memengaruhi perasaan Anda, cara berpikir dan berperilaku, serta dapat membuat Anda memiliki berbagai masalah emosi dan fisik. Jika rasa sedih berlangsung dalam beberapa hari atau minggu, mengganggu pekerjaan atau kegiatan lain dengan keluarga atau teman, atau berpikir untuk bunuh diri, kemungkinan ini adalah depresi. Diskusikan dengan dokter jika Anda merasakan gejala depresi.
-"
+                android:text="Salah satu hal yang dapat menghambat diri kita merasa berharga sehingga menjadi tidak percaya diri adalah adanya inner critic. Inner critic merupakan suara di dalam diri yang mengatakan hal-hal negatif mengenai diri sendiri sehingga tanpa disadari dapat mengarahkan kita menjadi pribadi yang perfeksionis. Ketika kita merasa gagal atau berbuat salah dalam melakukan sesuatu, secara otomatis kita berkata kepada diri sendiri “Aku payah, gitu aja gak bisa. Bodoh banget. Memang aku gak bisa apa-apa”. Tanpa disadari, inner critic tersebut terus berulang hampir di setiap hari sehingga membuat diri kita menjadi stres dan tegang, bahkan berdampak pada relasi kita dengan orang-orang di sekitar kita. Kita merasa tidak nyaman untuk mengungkapkan pikiran atau perasaan kita yang sebenarnya kepada mereka. Bahkan mungkin kita juga menjadi pribadi yang mudah tersinggung dengan perkataan atau sikap mereka terhadap diri kita."
                 android:textSize="12sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
