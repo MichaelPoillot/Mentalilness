@@ -10,5 +10,8 @@ public class desc_depresi extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_desc_depresi);
+
+
+//        aaa
     }
 }
