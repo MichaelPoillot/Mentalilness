@@ -90,8 +90,38 @@ Pada orang dengan depresi, gejala ini berlangsung lama hingga 2 minggu atau lebi
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView7" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:text="KAPAN SAYA HARUS PERIKSA KE DOKTER ?"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView8" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Jika Anda merasakan beberapa tanda depresi, buatlah janji dengan dokter Anda sesegera yang Anda bisa. Apabila Anda enggan untuk melakukan terapi, bicarakan dengan teman atau pasangan Anda, pelayan kesehatan, pemuka agama, atau orang lain yang dapat Anda percaya. Tidak perlu malu untuk meminta pertolongan dokter atau pihak lain. Semakin dini Anda ke dokter, semakin baik.
+Jika Anda berpikir Anda akan melukai diri Anda atau mencoba bunuh diri, hubungi nomor darurat segera.
+Selain itu,\n pertimbangkan pilihan berikut saat Anda berpikir akan bunuh diri:
+\n•  Meminta bantuan dokter Anda atau pelayan kesehatan yang lain
+\n•  Membicarakan dengan teman terdekat atau pasangan Anda
+\n•  Hubungi pemuka agama atau orang lain dalam komunitas iman Anda
+\n Jika pasangan atau teman Anda dalam bahaya percobaan bunuh diri:
+\n•  Pastikan orang lain tetap bersamanya
+\n•  Hubungi nomor darurat lokal sesegera mungkin
+\n•  Atau, jika memungkinkan, bawalah orang tersebut ke instalasi gawat darurat di rumah sakit terdekat
+"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
-
-
 </LinearLayout>
