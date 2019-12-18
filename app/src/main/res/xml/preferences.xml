@@ -2,7 +2,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <PreferenceCategory
-        android:title="USER">
+        android:title="USER Account">
         <EditTextPreference
             android:dialogTitle="Your name"
             android:key="key_full_name"
@@ -15,6 +15,12 @@
             android:key="key_email"
             app:useSimpleSummaryProvider="true"
             android:title="Email"/>
+
+        <EditTextPreference
+            android:dialogTitle="Your Password"
+            android:key="key_password"
+            app:useSimpleSummaryProvider="true"
+            android:title="Password"/>
     </PreferenceCategory>
     <PreferenceCategory android:title="Umum">
         <CheckBoxPreference
@@ -23,10 +29,34 @@
             android:summary="Enable or Disable Notification"
             android:title="Enable Notification"/>
 
-        <ListPreference
-            android:dependency="enable_notif"
-            android:key="key_enable_notif"
-            android:title="Enable Notification" />
-
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable_notif"
+            android:summary="Enable or Disable Icon"
+            android:title="Enable Icon Menu"/>
     </PreferenceCategory>
+    <PreferenceCategory android:title="Update">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable_notif"
+            android:summary="Send Notification"
+            android:title="UPDATE"/>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable_notif"
+            android:summary=""
+            android:title="Auto-Update"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Other">
+        <Preference android:title="Parental Control">
+
+        </Preference>
+
+        <Preference android:title="Layanan dan Masukan">
+
+        </Preference>
+    </PreferenceCategory>
+
 </PreferenceScreen>

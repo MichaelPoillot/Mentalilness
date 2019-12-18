@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ringtone">
+        <item>Balungan Kere</item>
+        <item>Penak Konco</item>
+        <item>Tibo Buri</item>
+        <item>Sugeng Dalu</item>
+    </string-array>
+</resources>

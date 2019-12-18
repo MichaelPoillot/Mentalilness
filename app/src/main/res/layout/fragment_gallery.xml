@@ -25,13 +25,14 @@
                 android:layout_margin="25dp"
                 android:orientation="vertical"
                 android:weightSum="3">
+
                 <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
+                    android:layout_width="401dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="400dp"
+                        android:layout_width="350dp"
                         android:layout_height="255dp"
                         android:padding="20dp">
 
@@ -43,8 +44,8 @@
                             android:layout_marginTop="20dp"
                             app:layout_constraintEnd_toStartOf="@+id/textView"
                             app:layout_constraintStart_toEndOf="@+id/imageView12"
-                            app:layout_constraintTop_toTopOf="parent"/>
-                            //app:srcCompat="@drawable/online"
+                            app:layout_constraintTop_toTopOf="parent" />
+                        //app:srcCompat="@drawable/online"
 
                         <ImageView
                             android:id="@+id/imageView12"
@@ -106,11 +107,12 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="Stress , Anxiety , addictions , Trauma, and Abuse , Self Esteem , Coping with life changes, Relathionship issues "
+                            android:text="Stress , Anxiety , addictions , Trauma, and Abuse , SelfEstem , Coping with life changes, Relathionship issues "
                             android:textSize="12dp"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/textView3"></TextView>
+
                         <Button
                             android:id="@+id/button1"
                             android:layout_width="299dp"
@@ -135,7 +137,7 @@
                     android:layout_weight="1">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="400dp"
+                        android:layout_width="350dp"
                         android:layout_height="255dp"
                         android:padding="20dp">
 
@@ -176,7 +178,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="24dp"
                             android:layout_marginTop="15dp"
-                            android:text="Michael Poillot"
+                            android:text="Nugraha Eka Prasetya"
                             android:textColor="@android:color/black"
                             android:textSize="18sp"
                             android:textStyle="bold"
@@ -210,7 +212,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="Stress , Anxiety , addictions , Trauma, and Abuse , Self Esteem , Coping with life changes, Relathionship issues "
+                            android:text="Stress , Anxiety , addictions , Trauma, and Abuse , SelfEsteem , Coping with life changes, Relathionship issues "
                             android:textSize="12dp"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -221,6 +223,7 @@
                             android:layout_width="299dp"
                             android:layout_height="42dp"
                             android:layout_marginTop="20dp"
+                            android:layout_marginRight="50dp"
                             android:background="@drawable/closebutton2"
                             android:onClick="closedepresion"
                             android:text="Get Support"
@@ -240,7 +243,7 @@
                     android:layout_weight="1">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="400dp"
+                        android:layout_width="350dp"
                         android:layout_height="255dp"
                         android:padding="20dp">
 
@@ -281,7 +284,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="24dp"
                             android:layout_marginTop="15dp"
-                            android:text="Michael Poillot"
+                            android:text="Alenovan Wirandika"
                             android:textColor="@android:color/black"
                             android:textSize="18sp"
                             android:textStyle="bold"
@@ -315,7 +318,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="Stress , Anxiety , addictions , Trauma, and Abuse , Self Esteem , Coping with life changes, Relathionship issues "
+                            android:text="Stress , Anxiety , addictions , Trauma, and Abuse , SelfEsteem , Coping with life changes, Relathionship issues "
                             android:textSize="12dp"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -326,6 +329,7 @@
                             android:layout_width="299dp"
                             android:layout_height="42dp"
                             android:layout_marginTop="20dp"
+                            android:layout_marginRight="50dp"
                             android:background="@drawable/closebutton2"
                             android:onClick="closedepresion"
                             android:text="Get Support"
