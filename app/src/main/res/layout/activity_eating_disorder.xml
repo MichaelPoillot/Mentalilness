@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".eating_disorder">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="apa itu eating disorder"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Masalah makan memang sering kali dianggap enteng, karena mungkin bagi sebagian orang mendengar kata makan, pastilah akan menimbulkan kegairahan tersendiri. Tapi tahukah anda bahwa masalah makan ini justru dapat menjadi masalah bagi sebagian orang karena mengkonsumsinya secara berlebihan, bahkan kelainan pola makan dapat dikategorikan sebagai “penyakit” yang dikenal dengan eating disorder."
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Anorexia nervosa, bulimia nervosa dan binge-eating disorder"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="sebagian dari kelainan yang dikategorikan sebagai eating disorder. Kelainan ini jika sudah sampai tahap tertentu akan menjadi komplek karena menimbulkan konsekuensi fisiologis, fisik dan sosial bagi penderitanya.
+
+Seseorang yang mengalami kelainan ini biasanya memiliki pola makan dalam porsi sedikit atau pun banyak, namun masih dalam kategori normal. Pada suatu titik orang tersebut menganggap bahwa pola makan yang dilakukannnya tersebut sudah di luar kontrolnya. Penderita selalu stress jika melihat berat dan bentuk tubuhnya karena dianggap bermasalah dan mulai mengontrol konsumsi secara berlebihan juga dikategorikan sebagai eating disorder.
+
+Saat ini eating disorder sudah banyak dialami namun “penyakit” ini dapat diobati. Eating disorder juga sering kali bersamaan munculnya dengan kondisi lainnya seperti depresi, gelisah dan merasa dilecehkan."
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Apa itu eating disorder?
+
+Masalah makan memang sering kali dianggap enteng, karena mungkin bagi sebagian orang mendengar kata makan, pastilah akan menimbulkan kegairahan tersendiri. Tapi tahukah anda bahwa masalah makan ini justru dapat menjadi masalah bagi sebagian orang karena mengkonsumsinya secara berlebihan, bahkan kelainan pola makan dapat dikategorikan sebagai “penyakit” yang dikenal dengan eating disorder.
+
+Anorexia nervosa, bulimia nervosa dan binge-eating disorder adalah sebagian dari kelainan yang dikategorikan sebagai eating disorder. Kelainan ini jika sudah sampai tahap tertentu akan menjadi komplek karena menimbulkan konsekuensi fisiologis, fisik dan sosial bagi penderitanya.
+
+Seseorang yang mengalami kelainan ini biasanya memiliki pola makan dalam porsi sedikit atau pun banyak, namun masih dalam kategori normal. Pada suatu titik orang tersebut menganggap bahwa pola makan yang dilakukannnya tersebut sudah di luar kontrolnya. Penderita selalu stress jika melihat berat dan bentuk tubuhnya karena dianggap bermasalah dan mulai mengontrol konsumsi secara berlebihan juga dikategorikan sebagai eating disorder.
+
+Saat ini eating disorder sudah banyak dialami namun “penyakit” ini dapat diobati. Eating disorder juga sering kali bersamaan munculnya dengan kondisi lainnya seperti depresi, gelisah dan merasa dilecehkan.
+
+Kondisi orang yang mengalami eating disorder dapat menjadi sangat serius jika tidak mendapatkan pengobatan, seperti halnya yang sering ditunjukkan oleh anorexia diamana angka kematian yang disebabkan oleh kelaianan ini tertinggi jika dibandingkan dengan kelainan psikologis lainnya.
+
+Eating disorder dapat dialami baik oleh pria dan wanita, namun data empiris menunjukkan bahwa jumlah penderita kelainan ini pada wanita 2 ½ kali lebih banyak dibandingkan dengan pria. Biasanya kelaian ini mulai muncul ketika memasuki usia remaja, namun kelainan ini ada juga yang dimulai pada masa kanak-kanak dan secara perlahan berkembang dengan bertambahnya usia.
+
+Seperti yang telah diuraikan disinggung di atas, ada tiga macam eating disorder yang paling umum dijumpai, yaitu : Anorexia nervosa, Bulimia nervosa dan Binge-eating disorder."
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Anorexia nervosa"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Pada umumnya orang yang mengalami kelaian ini merasa bahwa berat badannya berlebihan walaupun seringkali pada kenyataannya berat badan orang tersebut masih masuk kategori kurus. \nGejala lain yang diperlihatkan penderita kelainan ini adalah pengetatan jumlah makanan yang dikonsumsinya dan menimbang berat badannya dengan frekuensi yang sangat sering.
+
+Biasanya penderita mengatur jumlah makanannya dengan sangat cermat dan hanya makan dalam jumlah yang sangat sedikit dan hanya jenis makanan tertentu saja. Penderita memiliki kebiasaan makan sangat banyak, selanjutnya diikuti dengan pengurangan konsumsi yang sangat ekstrim dan mengkombinasikannya dengan olah raga yang berlebihan, memuntahkan makanan yang dikonsumsinya, menggunakan pencahar atau dengan upaya lainnya.
+
+\nGejala yang umumnya ditunjukkan oleh penderita anorexia nervosa adalah : berat badan yang sangat kurus, kecemasan akan meningkatnya berat badan, makan dengan jumlah yang sangat sedikit, tidak terima jika dikatakan badannya sangat kurus, gangguan menstruasi bagi wanita."
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView10" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Bulimia nervosa"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Orang yang mengalami kelainan ini biasanya mengkonsumsi makan dalam jumlah yang sangat banyak karena tidak memiliki kontrol untuk menghentikannya, selanjutnya mengeluarkan makanan tersebut dengan cara memuntahkannya secara paksa. Ada juga penderitanya yang menggunakan pencahar secara berlebihan, olah raga yang berlebihan atau kombinasi dari berbagai cara ini agar makanan yang sudah dikonsumsinya dapat keluar lagi.\n
+Perbedaan antara Anorexia nervosa dan Bulimia nervosa terletak pada berat badan. Penderita Bulimia nervosa umumnya memiliki berat badan normal atau ada juga yang sedikit lebih kurus. Penderita ini juga merasakan kekhawatiran yang berlebihan dengan peningkatan berat badannya, sehingga sangat berkeinginan untuk mengurangi berat badannya dan selalu tidak puas dengan berat badan dan ukuran tubuhnya.
+Penderita Bulimia nervosa biasanya merahasiakan kelainannya dan disertai dengan perasaan malu dan muak terhadap dirinya sendiri.
+Gejala penderita yang mengalami kelainan ini adalah : tenggorakan sakit dan bengkak, pembesaran kelenjar ludah di leher dan rahang, gigi dan gusi sensitif karena sering terekspos asam lambung akibat pengeluaran makanan dengan paksa, gangguan pencernaan, iritasi saluran pencernaan, dehidrasi, ketidakseimbangan cairan elektrolit tubuh seperti kalsium, sodium, potassium dan mineral lainnya yang dapat memicu seranganjantung dan stroke."
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView12" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Binge-eating disorder"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Orang yang mengalami kelaianan ini biasanya kehilangan kontrol terhadap keinginan makannya, sehingga makan secara berlebihan. Tidak seperti kedua macam eating disorder yang telah dibahas di atas, penderitanya tidak menindaklanjutinya dengan olah raga yang berlebihan atau puasa, sehingga penderita biasanya gemuk dan memiliki resiko tinggi terhadap penyakit jantung dan tekanan darah tinggi."
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView14" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Terapi eating disorder"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Terapi yang umum dilakukan bagi penderita eating disorder ini adalah psychotherapy dan talk therapy yang bertujuan untuk mengembalikan keseimbangan nutrisi dan berat badan ke arah normal. Disamping itu target terapi juga diarahkan untuk mengurangi keinginan untuk melakukan olah raga yang berlebihan dan tingah laku makan yang menyimpang.
+
+Terapi menyeluruh yang biasa diterapkan adalah terapi secara individu, berkelompok serta keluarga, monitoring dan pengawasan kesehatan, konsultasi nutrisi dan pengobatan misalnya dengan menggunakan anti depresi.
+
+Beberapa penderita kemungkinan harus masuk rumah sakit untuk mengobati eating disorder ini karena mengalami malnutrisi dan untuk memastikan penderita makan dengan jumlah cukup jika penderitanya terlalu kurus. Data empiris menunjukkan bahwa penderita dapat pulih kembali setelah mengalami terapi secara menyeluruh."
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView16" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="231dp"
+                android:layout_height="44dp"
+                android:background="@drawable/closebutton"
+                android:onClick="closeeatingdis"
+                android:text="close"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView17" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

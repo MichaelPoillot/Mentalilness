@@ -80,6 +80,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void eatingdisorderclick(View view) {
+        Intent intent = new Intent(this,eating_disorder.class);
+        startActivity(intent);
     }
 
     public void cyberbulyclick(View view) {
