@@ -68,7 +68,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="14dp"
-                android:text="8 METODE SELF HEALING"
+                android:text="METODE SELF HEALING"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="14sp"
@@ -154,18 +154,47 @@ Membuat kita merasa bahwa pusat dari segala kehidupan ini adalah diri sendiri. O
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/textView14" />
 
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Berkonsultasi ke pskiater atau psikolog"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Untuk mood swing yang parah atau sangat sering terjadi, hingga menyebabkan gangguan aktivitas sehari-hari, sebaiknya dikonsultasikan pada pskiater atau psikolog. Psikiater atau psikolog dapat membantu Anda mengindentifikasi penyebab mood swing sekaligus memberikan penanganan yang tepat.
+
+Mood swing yang disebabkan oleh gangguan mental sulit sembuh dengan sendirinya. Tanpa penanganan medis, sering kali kondisi penderita menjadi semakin buruk.
+
+Pasien dengan mood swing dapat menjalani sesi konseling, dan setelah faktor penyebabnya diketahui, dokter akan memberikan penanganan, baik dengan psikoterapi maupun pemberian obat-obatan."
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView16" />
+
             <Button
                 android:id="@+id/button3"
                 android:layout_width="231dp"
                 android:layout_height="44dp"
                 android:background="@drawable/closebutton"
-                android:onClick="closedepresion"
+                android:onClick="closeemosi"
                 android:text="close"
                 android:textColor="#FFFFFF"
                 android:textSize="17sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/textView15" />
+                app:layout_constraintTop_toBottomOf="@id/textView17" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

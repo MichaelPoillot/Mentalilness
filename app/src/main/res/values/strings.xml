@@ -14,7 +14,13 @@
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+    <string name="menu_send">Setting</string>
+
+    <string name="key_about">key_about</string>
+
+    <string name="key_contoh_checkbox">key_contoh_checkbox</string>
+    <string name="key_contoh_switch">key_contoh_switch</string>
+
     >>>>>>> b078f1a79ba8b4112ebc40dcaf6427d84af33fbd
 
     <!-- TODO: Remove or change this placeholder text -->

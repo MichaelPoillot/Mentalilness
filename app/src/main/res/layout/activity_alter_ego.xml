@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".alter_ego">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Apa itu alter ego?"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Alter ego adalah kondisi di mana seseorang membentuk karakter lain dalam dirinya secara sadar. Karakter lain ini sering kali merupakan gambaran ideal tentang dirinya, yang tidak bisa dia realisasikan dan hanya mampu ia idam-idamkan. Beberapa orang lain juga mengatakan bahwa alter ego adalah sarana mereka untuk menyembunyikan sisi diri mereka yang ingin disembunyikan dari orang lain."
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Apa bedanya alter ego dengan ‘kepribadian ganda’?"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView4" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Dissociative identity disorder (DID), yang sebelumnya dikenal dengan multiple personality disorder atau oleh orang awam disebut kepribadian ganda, adalah kelainan di mana seseorang memiliki lebih dari satu identitas dalam satu tubuh. Seseorang dengan banyak identitas ini lebih cenderung untuk menyebut dirinya ‘kami’.
+
+
+Pada sebagian besar kasus, karakter yang dimiliki oleh orang dengan DID adalah lebih dari dua orang, dan karakter atau identitas lain (identitas alternatif) tersebut terpisah satu sama lain. Saat satu identitas alternatif tengah menguasai tubuh Anda, identitas alternatif inilah yang memegang kendali terhadap tubuh Anda seutuhnya dalam beberapa waktu ke depan. Sehingga perubahan yang akan terjadi adalah secara total. Aksen bicara, memori, nama, usia, bahkan gender kepribadian ini akan benar-benar akan berbeda. Bahkan, saat identitas kembali pada identitas utama (asli), Anda takkan mampu mengingat apa yang terjadi pada diri Anda saat kepribadian yang lain sedang mengambil alih.
+
+Dengan kata lain, ketidaksadaran yang Anda alami saat identitas tubuh Anda berubah, akan diikuti juga dengan segala perubahan dalam diri Anda, seperti yang telah disebutkan sebelumnya. Bila pun Anda memiliki lebih dari dua kepribadian dalam diri Anda, tiap kepribadian itu masing-masing akan tetap berfungsi secara terpisah-pisah.
+
+Berbeda halnya dengan alter ego. Perubahan identitas pada alter ego dilakukan dengan sadar dan masih dalam wewenang identitas asli. Dengan kata lain, tidak terjadi lupa ingatan pada proses perubahan karakter pada orang dengan alter ego. Selain itu, identitas asli juga masih memiliki wewenang penuh dalam tukar-menukar identitas serta dalam kesadaran yang utuh. Saat Anda merasa dalam kondisi Anda membutuhkan identitas alternatif ini yang muncul, Anda dapat memicu dan mengubahnya sendiri."
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Apakah normal memiliki alter ego?"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView6" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Sebenarnya, setiap orang berpotensi memiliki alter ego. Namun pada beberapa kondisi, Anda mungkin tak sadar Anda memilikinya, karena pemahaman mengenai alter ego tersebut yang masih berbeda-beda satu sama lain, seperti:
+
+Orang A. Orang yang memiliki alter ego dalam bentuk suara dalam kepalanya yang sering kali ia ajak diskusi saat ia dihadapkan dengan keputusan yang sulit untuk dia putuskan sendiri.
+
+Orang B, yang menggunakan alter egonya untuk tujuan tertentu, seperti Beyonce yang mengeluarkan Sasha Fierce hanya pada saat ia butuh mengeluarkan karakter berani dalam dirinya. Sedangkan ia merasa bahwa karakter asli dalam dirinya adalah karakter pemalu.
+
+Orang C, yang mengeluarkan alter egonya hanya pada saat-saat di mana ia kesepian dan butuh lawan bicara.
+
+Hanya saja yang perlu diketahui bahwa, pada beberapa kasus, memiliki alter ego bisa berakhir membahayakan diri Anda sendiri maupun mungkin orang-orang di sekitar Anda. Memiliki alter ego boleh-boleh saja, selama alter ego yang Anda ciptakan tersebut masih dapat Anda kendalikan."
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Beberapa ciri dan gejala orang yang memiliki alter ego diantaranya yaitu:"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView8" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="\n1.Mudah panik
+\n2.Memiliki perilaku yang berbeda
+\n3.Emosi tidak stabil
+\n4.Penderita tidak sadar dan lupa ketika alter ego sedang menguasainya
+\n5.Memiliki gangguan dipersonality atau lebih
+Munculnya alter ego bisa dipicu oleh trauma psikis dan fisik, serta ketakutan dan kepercayaan diri yang rendah. Selain karena alter ego, kondisi perubahan perilaku ini juga bisa disebabkan karena gangguan mood, bipolar, dan skizofrenia.
+
+Apabila Anda merasa khawatir, akan lebih baik jika Anda berkonsultasi langsung dengan dokter spesialis kejiwaan atau psikiater agar bisa dilakukan pemeriksaan menyeluruh termasuk kondisi psikologis Anda sehingga dokter bisa memberikan penanganan apabila diperlukan."
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Berhati-hatilah dengan alter ego. Menciptakan dan memiliki alter ego bukan merupakan sesuatu yang dilarang, tetapi ingatlah. Jangan pernah membiarkan alter ego menguasai tubuh, pikiran, dan kepribadianmu yang justru menghancurkanmu."
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView10" />
+
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="231dp"
+                android:layout_height="44dp"
+                android:background="@drawable/closebutton"
+                android:onClick="closealterego"
+                android:text="close"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView11" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

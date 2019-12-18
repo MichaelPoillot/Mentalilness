@@ -13,7 +13,7 @@
             android:icon="@drawable/help"
             android:title="Find Help" />
         <item
-            android:id="@+id/nav_setting"
+            android:id="@+id/nav_send"
             android:icon="@drawable/setting"
             android:title="Setting" />
 

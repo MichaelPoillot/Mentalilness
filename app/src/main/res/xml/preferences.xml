@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="USER">
+        <EditTextPreference
+            android:dialogTitle="Your name"
+            android:key="key_full_name"
+            app:useSimpleSummaryProvider="true"
+            android:title="Name"/>
+
+        <EditTextPreference
+            android:dialogTitle="Your Email"
+            android:inputType="textCapWords"
+            android:key="key_email"
+            app:useSimpleSummaryProvider="true"
+            android:title="Email"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Umum">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable_notif"
+            android:summary="Enable or Disable Notification"
+            android:title="Enable Notification"/>
+
+        <ListPreference
+            android:dependency="enable_notif"
+            android:key="key_enable_notif"
+            android:title="Enable Notification" />
+
+    </PreferenceCategory>
+</PreferenceScreen>
