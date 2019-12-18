@@ -85,8 +85,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void cyberbulyclick(View view) {
+        Intent intent = new Intent(this,cyber_bullying.class);
+        startActivity(intent);
     }
 
     public void alteregoclick(View view) {
+        Intent intent = new Intent(this,alter_ego.class);
+        startActivity(intent);
     }
 }

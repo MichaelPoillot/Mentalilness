@@ -9,7 +9,9 @@
         android:roundIcon="@drawable/intro"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".eating_disorder"></activity>
+        <activity android:name=".alter_ego"></activity>
+        <activity android:name=".cyber_bullying" />
+        <activity android:name=".eating_disorder" />
         <activity android:name=".mood_swing" />
         <activity android:name=".desc_kepercayaandiri" />
         <activity android:name=".desc_depresi" />

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cyber_bullying">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Pengertian dan Penyebab Cyber Bullying?"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Salah satu hal yang kurang baik tersebut adalah terjadinya Cyber Bullying, yaitu suatu bentuk dari kekerasan non fisik yang dilakukan oleh orang – orang di dunia maya atau dunia cyber. Cyber Bullying adalah perlakuan kasar yang dilakukan satu atau sekelompok orang secara berulang dengan bantuan alat elektronik yang membuat targetnya kesulitan untuk membela diri.
+
+Bentuknya bisa berupa tulisan, meme, gambar, atau video yang bertujuan untuk mempermalukan dan merendahkan harga diri serta martabat targetnya. Sangat umum terjadi pada media sosial seperti facebok, instagram, path, twitter dan lainnya. Kategori cyber bullying diberlakukan hanya jika korbannya adalah remaja yang berusia dibawah 18 tahun, yang belum dianggap dewasa dari segi hukum. Jika hal ini terjadi pada seseorang yang telah berusia 18 tahun keatas, maka hal itu akan disebut atau dikategorikan sebagai cyber crime, hate speech, atau cyber stalking.
+
+Penyebab cyber bullying tidak memiliki faktor tunggal, melainkan berkembang dari berbagai hal yang kompleks, yang berasal dari akumulasi masalah di keluarga, sekolah dan lingkungan pergaulan. Dendam, perasaan frustasi atau kemarahan terpendam, terlalu banyak waktu luang, pengangguran, iri hati, dan banyak lagi perasaan negatif yang dapat berkumpul dan mendorong keinginan untuk membully. Keinginan untuk dianggap atau berkuasa dalam lingkungannya juga dapat mendorong seseorang melakukan cyber bullying, karena kemudahan akses internet dapat menjadi jalan untuk menekan pihak lain kapan saja, hanya dengan bermodalkan telepon genggam."
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Dampak Umum ?"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView4" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Tidak ada orang yang mengalami cyber bullying akan lolos tanpa mengalami bekas – bekas bullying tersebut pada dirinya, baik secara emosional maupun secara psikologis, entah itu merupakan dampak yang besar ataupun kecil. Berikut ini ada beberapa dampak cyber bullying yang bisa terjadi:"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Dipermalukan"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView6" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Tujuan para pembully memang untuk membuat korbannya jatuh secara mental demi kesenangan diri mereka sendiri. Korban bullying akan merasa dipermalukan dalam waktu yang lama, bahkan mungkin seumur hidup, karena di dunia cyber semua materi yang dimasukkan dan berkaitan dengan bullying tersebut akan selalu ada dan mengusik sang korban. Untuk medekati korban bullying. Cobalah cara mendekati orang introvert dengan berbagai trik psikologis, dan mengetahui berbagai tahap perkembangan afektif anak usia dini."
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Stres dan Depresi"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView8" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Mengalami penghinaan dan tekanan terus menerus akan meningkatkan frekuensi perasaan sedih dan melakolis yang akan mengarah kepada terbentuknya stres dan depresi pada korban cyber bullying. Perasaan bahagia akan sulit dirasakan karena terkikis oleh berbagai kejadian buruk yang dialami. Jika perlu, korban bullying dapat melakukan terapi psikologi untuk depresi agar dapat mengatasinya.
+"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Kehilangan Rasa Percaya Diri"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView10" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Keyakinan terhadap diri sendiri perlahan akan menghilang ketika mengalami bullying. Image positif terhadap diri sendiri juga bisa terkikis dan membuat korban bullying memandang negatif dirinya sendiri. Merasa diri tidak berharga dan tidak pantas ditolong, dan berbagai pandangan serta perasaan negatif lainnya."
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Paranoid"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView12" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Cemas dan selalu merasa tidak aman adalah dampak lain dari cyber bullying. Para pelaku bully dapat kapan saja memasuki ruang pribadi korbannya melalui akses dari telepon genggam ataupun internet yang ada di komputer, sehingga korban bullying tidak pernah merasa benar  benar dapt beristirahat dari teror tersebut. Paranoid merupakan salah satu dari macam – macam gangguan jiwa yang bisa terjadi pada manusia."
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Menjadi Pelakunya"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView14" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Seorang korban bisa saja menjadi pelaku untuk mempertahankan diri ataupun hanya sekedar meniru. Ia pasti tahu apa yang dapat dijadikan sasaran oleh para pelaku cyber bullying dan beralih meniru para pelakunya. Bisa saja dengan alasan agar dirinya dianggap kuat dan terhindar dari penindasan lebih lanjut, ataupun kehilangan nilai – nilai moralnya sendiri."
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Bunuh Diri"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView16" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Cyber bullying meningkatkan resiko bunuh diri. Anak – anak yang disiksa terus menerus oleh teman sebaya melalui pesan teks, pesan instan, media sosial dan lainnya seringkali akan mulai merasa putus asa. Bisa saja mulai berkembang pemikiran bahwa satu – satunya jalan untuk melepaskan diri adalah dengan bunuh diri.
+
+Banyak orang tua yang membebaskan penggunaan gadget dan internet kepada anak dengan alasan kemajuan zaman. Memberikan gadget juga sebagai cara mudah untuk menenangkan anak agar orang tua dapat mempunyai waktu untuk diri sendiri. Namun banyak dari mereka yang tidak menyadari bahaya dibaliknya, dan lupa untuk memberi pengawasan yang layak saat anak menggunakan gadget."
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="231dp"
+                android:layout_height="44dp"
+                android:background="@drawable/closebutton"
+                android:onClick="closecyberbullying"
+                android:text="close"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView18" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>
