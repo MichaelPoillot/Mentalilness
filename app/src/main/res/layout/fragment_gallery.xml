@@ -32,7 +32,7 @@
                     android:scale="fitXY">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="400dp"
+                        android:layout_width="350dp"
                         android:layout_height="255dp"
                         android:padding="20dp">
 
@@ -136,8 +136,8 @@
                     android:layout_weight="1">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="400dp"
-                        android:layout_height="275dp"
+                        android:layout_width="350dp"
+                        android:layout_height="255dp"
                         android:padding="20dp">
 
                         <ImageView
@@ -177,7 +177,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="24dp"
                             android:layout_marginTop="15dp"
-                            android:text="Nugraha eka Prasetya"
+                            android:text="Nugraha eka"
                             android:textColor="@android:color/black"
                             android:textSize="18sp"
                             android:textStyle="bold"
@@ -186,8 +186,8 @@
 
                         <TextView
                             android:id="@+id/textView7"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="42dp"
+                            android:layout_height="17dp"
                             android:layout_marginStart="24dp"
                             android:text="msed."
                             android:textAllCaps="true"
@@ -210,10 +210,10 @@
                             android:id="@+id/textView9"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="5dp"
-                            android:text="Stress , Anxiety , addictions , Trauma, and Abuse , Self Esteem , Coping with life changes, Relathionship issues, Grief . Bipolar Discover "
+                            android:text="Stress , Anxiety , addictions , Trauma, and Abuse , Self Esteem , Coping with life changes, Relathionship issues "
                             android:textSize="12dp"
                             app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.875"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/textView8"></TextView>
 
@@ -241,7 +241,7 @@
                     android:layout_weight="1">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="400dp"
+                        android:layout_width="350dp"
                         android:layout_height="255dp"
                         android:padding="20dp">
 
